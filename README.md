@@ -33,12 +33,6 @@ NOTE: This may take a while if this is the first time installing this as a conta
 - `./vendor/bin/sail artisan key:generate`
 
 8. Build the seed.
-- `./vendor/bin/sail artisan migrate:fresh --seed`
+- `./vendor/bin/sail artisan migrate:fresh`
 
-9. npm Install
-- `./vendor/bin/sail npm install`
-
-10. npm build
-- `./vendor/bin/sail npm run build`
-
-11. You can now open your application with your browser: http://localhost
+9. You can now open your application with your browser: http://localhost
